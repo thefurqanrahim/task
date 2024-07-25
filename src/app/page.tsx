@@ -4,10 +4,19 @@ import Banner from "../components/Banner"
 import ThirdSection from "@/components/ThirdSection";
 import Footer from "@/components/Footer";
 import SecondSection from "@/components/SecondSection";
+import Union from "../assets/union.png"
 
 export default function Home() {
   return (
-    <>
+    <div className="relative" >
+      <div className="w-full h-auto absolute z-[-1] mt-[-28px]">
+        <Image
+          src={Union}
+          alt="background"
+          layout="responsive"
+          className="w-full h-auto object-cover"
+        />
+      </div>
       <div className="container mx-auto lg:px-16 md:px-0">
         <Navbar />
         <Banner />
@@ -15,6 +24,6 @@ export default function Home() {
         <ThirdSection />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
