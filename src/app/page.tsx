@@ -4,7 +4,7 @@ import Banner from "../components/Banner"
 import ThirdSection from "@/components/ThirdSection";
 import Footer from "@/components/Footer";
 import SecondSection from "@/components/SecondSection";
-import Union from "../assets/union.png"
+import Union from "../assets/Union.png"
 
 export default function Home() {
   return (
