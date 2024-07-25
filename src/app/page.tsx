@@ -13,7 +13,6 @@ export default function Home() {
         <Image
           src={Union}
           alt="background"
-          layout="responsive"
           className="w-full h-auto object-cover"
         />
       </div>
