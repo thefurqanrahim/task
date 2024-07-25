@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="mx-auto p-4 sm:p-6 md:p-8 lg:p-16 lg:ml-5 lg:mr-5">
                 <div className="bg-white rounded-3xl p-4 sm:p-6 md:p-8 lg:p-16">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                        <div className="flex flex-col p-4">
+                        <div className="flex flex-col">
                             <h6 className="text-footerHeading text-lg sm:text-xl font-bold">Say Hello!</h6>
                             <p className="text-lg sm:text-xl font-normal text-mailHeadingColor">opencoregroup@gmail.com</p>
                             <div className="flex flex-wrap gap-4 mt-4 ">
