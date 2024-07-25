@@ -1,6 +1,3 @@
-import Image from "next/image";
-import NavbarImg from "../../public/assets/navbar.png";
-import { Bars4Icon } from "@heroicons/react/24/outline";
 
 export default function ThirdSection() {
     return (

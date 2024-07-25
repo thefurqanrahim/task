@@ -1,9 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from "next/image";
-import NavbarImg from "../../public/assets/navbar.png";
-import { Bars4Icon } from "@heroicons/react/24/outline";
 import { TabsCustomAnimation } from "../components/Tabs";
 
 export default function SecondSection() {
