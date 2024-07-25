@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.directionChange {
+  display: flex;
+  justify-content: end;
+}
+
+.circleDirection {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 768px) {
+  .directionChange {
+    justify-content: space-between;
+  }
+  ;
+}
+
+@media (max-width: 767px) {
+  .circleDirection {
+    justify-content: center !important;
+  }
+
+  ;
+}
